@@ -1,0 +1,31 @@
+{
+  "name": "remix_tutorial",
+  "private": true,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/css-bundle": "^2.2.0",
+    "@remix-run/node": "2.x",
+    "@remix-run/react": "2.x",
+    "@remix-run/serve": "2.x",
+    "isbot": "latest",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "tiny-invariant": "1.x"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "2.x",
+    "@remix-run/eslint-config": "2.x",
+    "@types/react": "18.x",
+    "@types/react-dom": "18.x",
+    "eslint": "8.x",
+    "typescript": "5.x"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
